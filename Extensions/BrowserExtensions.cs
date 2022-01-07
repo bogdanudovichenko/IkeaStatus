@@ -6,7 +6,7 @@ public static class BrowserExtensions
     {
         var options = new BrowserTypeLaunchOptions
         {
-            Headless = false
+            Headless = true
         };
 
         try
