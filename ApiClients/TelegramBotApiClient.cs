@@ -27,7 +27,7 @@ public class TelegramBotApiClient
             msgBuilder.AppendLine(product.Url);
             msgBuilder.AppendLine("------");
         }
-
+        
         await _telegramBotClient.SendTextMessageAsync(_options.ChatName, msgBuilder.ToString());
     }
 }

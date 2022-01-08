@@ -90,6 +90,7 @@ public class IkeaStatusService
         }
 
         await page.SelectOptionAsync(quantityProductSelectSelector, quantity.ToString());
+        await page.WaitForTimeoutAsync(Timeout);
     }
 
     private async Task<bool> TryCheckoutProductAsync(IPage page)

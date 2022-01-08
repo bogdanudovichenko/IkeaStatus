@@ -4,7 +4,6 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-IkeaBot-F35EE86E-EA62-4A2B-A588-7C2DCB6C8715</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Hangfire" Version="1.7.28" />
     <PackageReference Include="Microsoft.Playwright" Version="1.17.3" />
     <PackageReference Include="Telegram.Bot" Version="17.0.0" />
   </ItemGroup>
