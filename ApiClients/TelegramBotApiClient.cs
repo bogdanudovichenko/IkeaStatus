@@ -1,6 +1,10 @@
 using System.Text;
 using Microsoft.Extensions.Options;
 using Telegram.Bot;
+using IkeaBot.Models;
+using IkeaBot.Models.Options;
+
+namespace IkeaBot.ApiClients;
 
 public class TelegramBotApiClient
 {

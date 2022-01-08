@@ -1,5 +1,7 @@
 using Microsoft.Playwright;
 
+namespace IkeaBot.Extensions;
+
 public static class BrowserExtensions
 {
     public static async Task<IBrowser> LauncChromeAsync(this IPlaywright playwright)

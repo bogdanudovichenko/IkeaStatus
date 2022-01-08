@@ -1,3 +1,5 @@
+using IkeaBot.Services;
+
 namespace IkeaBot;
 
 public class Worker : BackgroundService

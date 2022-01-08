@@ -1,4 +1,7 @@
 using System.Text.Json;
+using IkeaBot.Models;
+
+namespace IkeaBot.Repositories;
 
 public class ProductsRepository
 {

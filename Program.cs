@@ -1,4 +1,8 @@
 using IkeaBot;
+using IkeaBot.Models.Options;
+using IkeaBot.Repositories;
+using IkeaBot.ApiClients;
+using IkeaBot.Services;
 
 Directory.SetCurrentDirectory(System.AppDomain.CurrentDomain.BaseDirectory);
 

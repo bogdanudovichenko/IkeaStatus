@@ -1,3 +1,5 @@
+namespace IkeaBot.Models;
+
 public record Product
 {
     public string Url { get; init; } = null!;
