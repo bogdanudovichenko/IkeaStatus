@@ -1,0 +1,10 @@
+global using Microsoft.Extensions.Options;
+global using System.Text;
+global using System.Text.Json;
+global using IkeaBot;
+global using IkeaBot.Extensions;
+global using IkeaBot.Models;
+global using IkeaBot.Models.Options;
+global using IkeaBot.Repositories;
+global using IkeaBot.ApiClients;
+global using IkeaBot.Services;

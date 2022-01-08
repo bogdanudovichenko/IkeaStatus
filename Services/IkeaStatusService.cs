@@ -1,8 +1,4 @@
 using Microsoft.Playwright;
-using IkeaBot.Models;
-using IkeaBot.Repositories;
-using IkeaBot.ApiClients;
-using IkeaBot.Extensions;
 
 namespace IkeaBot.Services;
 

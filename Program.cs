@@ -1,9 +1,3 @@
-using IkeaBot;
-using IkeaBot.Models.Options;
-using IkeaBot.Repositories;
-using IkeaBot.ApiClients;
-using IkeaBot.Services;
-
 Directory.SetCurrentDirectory(System.AppDomain.CurrentDomain.BaseDirectory);
 
 var configuration = new ConfigurationBuilder()
@@ -15,7 +9,7 @@ var configuration = new ConfigurationBuilder()
 
 var host = Host.CreateDefaultBuilder(args)
     .UseWindowsService()
-    .ConfigureServices((hostContext, services) =>
+    .ConfigureServices(services =>
     {
         services.Configure<TelegramOptions>(configuration.GetSection("Telegram"));
 
